@@ -1,0 +1,1168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/**-- font --*/
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    border: none;
+}
+
+.mini_title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2A486C;
+}
+
+.main_heading {
+    font-size: 35px;
+    font-weight: 600;
+    color: #D1AD3C;
+    line-height: 0.9;
+}
+
+.heading_line {
+    width: 15%;
+    height: 3px;
+    background: linear-gradient(90deg, #2A486C, rgb(255, 255, 255));
+}
+
+/**_________________________________ home section starts ____________________________________**/
+.home_banner {
+    background: url(static/1_images/1_home/1_background-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+nav {
+    transition: 0.9s;
+    background-color: black;
+}
+
+.sticky {
+    background-color: rgb(255, 255, 255);
+    transition: 0.9s;
+    color: rgb(0, 0, 0) !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.manu_bar {
+    background-color: #2A486C;
+    border: none;
+}
+
+nav button {
+    outline: none;
+}
+
+.manu_bar:hover {
+    background-color: #D1AD3C;
+    outline: none !important;
+}
+
+.sticky_nav_link {
+    color: rgb(0, 0, 0) !important;
+}
+
+
+
+nav a,
+.nav-link {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.logo img {
+    width: 130px;
+}
+
+.tilawat_dropdown_container {
+    display: inline;
+    position: relative;
+}
+
+.tilawat_dropdown_content a {
+    color: black;
+    text-decoration: none;
+}
+
+.tilawat_dropdown_content a {
+    display: block;
+}
+
+.tilawat_dropdown_content {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    display: none;
+}
+
+.tilawat_dropdown_container:hover .tilawat_dropdown_content {
+    display: block;
+}
+
+
+.features_dropdown_container {
+    display: inline;
+    position: relative;
+}
+
+.features_dropdown_content a {
+    color: black;
+    text-decoration: none;
+}
+
+.features_dropdown_content a {
+    display: block;
+}
+
+.features_dropdown_content {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    border-radius: none !important;
+}
+
+.features_dropdown_container:hover .features_dropdown_content {
+    display: block;
+}
+
+.nav-link:hover,
+.dropdown_content:hover {
+    color: #D1AD3C !important;
+}
+
+.want_to_visit_btn {
+    background-color: #D1AD3C !important;
+    border-radius: 40px;
+    transition: 0.5s;
+}
+
+.want_to_visit_btn:hover {
+    background-color: #2A486C !important;
+    color: white !important;
+    transition: 0.5s;
+}
+
+.home_text_container {
+    height: 100vh;
+}
+
+.bsml_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.knwo_the_real {
+    font-size: 38px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.tafseer {
+    font-size: 54px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 0.7;
+}
+
+
+.when_things p {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    line-height: 1.1;
+}
+
+.quran_online_container a {
+    color: white;
+    text-decoration: none;
+    background-color: #D1AD3C;
+    border-radius: 40px;
+    transition: 0.4s;
+
+}
+
+.quran_online_container a:hover {
+    background-color: #2A486C;
+    transition: 0.4s;
+}
+
+@media screen and (max-width:770px) {
+    .bsml_container img {
+        width: 25vh;
+    }
+
+    .knwo_the_real {
+        font-size: 20px;
+    }
+
+    .tafseer {
+        font-size: 42px;
+        line-height: 1;
+    }
+
+    .when_things p {
+        font-size: 16px;
+        padding: 0px 30px;
+        line-height: 1.1;
+    }
+}
+
+/**___________________ home section ends ___________________**/
+
+
+/**_________________________________ History of Center section starts ____________________________________**/
+
+.few_words {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.history_center {
+    font-size: 35px;
+    font-weight: 600;
+    color: #D1AD3C;
+}
+
+.line {
+    width: 25%;
+    height: 3px;
+    background: linear-gradient(90deg, #2A486C, rgb(255, 255, 255));
+}
+
+.since {
+    font-size: 15.5px;
+    line-height: 1.9;
+}
+
+.the_jamaia {
+    color: #2A486C;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.the_jamaia_list {
+    font-size: 15.5px;
+    font-weight: 400;
+}
+
+.the_jamaia_list i {
+    font-size: 13px;
+    color: #D1AD3C;
+}
+
+@media screen and (max-width:770px) {
+    .few_words {
+        font-size: 16px;
+        line-height: 0.8;
+    }
+
+    .history_center {
+        font-size: 28px;
+    }
+
+    .line {
+        width: 40%;
+    }
+
+    .since {
+        font-size: 14.5px;
+    }
+
+    .the_jamaia_list {
+        font-size: 14.5px;
+        line-height: 1.5;
+    }
+
+}
+
+/**___________________ History of Center section ends ___________________**/
+
+
+
+/**_________________________________ feature section starts ____________________________________**/
+
+
+.feature_icon {
+    width: auto;
+    font-size: 55px;
+    color: #2A486C;
+    border: 1px solid #D1AD3C;
+}
+
+.feature_icon i {
+    font-size: 50px;
+    padding: 30px;
+    transition: 0.5s;
+    width: 115px;
+    height: 115px;
+}
+
+.feature_card:hover i {
+    background-color: #D1AD3C;
+    color: white;
+    transition: 0.4s;
+}
+
+.outline_circle {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.feature_title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2A486C;
+}
+
+.feature_body {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/**___________________ History of Center section ends ___________________**/
+
+
+
+
+/**_________________________________ Servicing Humanity section starts ____________________________________**/
+.card_shadow {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.service_icon {
+    font-size: 60px;
+    font-weight: 400;
+    color: #D1AD3C;
+}
+
+.service_heading {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2A486C;
+}
+
+.service_body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.service_read_more_btn {
+    font-size: 16px;
+    font-weight: 400;
+    color: #D1AD3C;
+    text-decoration: none;
+}
+
+.service_card {
+    transition: 0.5s;
+    border-radius: 3px;
+}
+
+.service_card:hover {
+    background-color: #D1AD3C !important;
+    color: white !important;
+}
+
+.service_card:hover .service_icon,
+.service_card:hover .service_heading,
+.service_card:hover .service_read_more_btn {
+    color: white !important;
+}
+
+
+/**___________________ Servicing Humanity section ends ___________________**/
+
+
+
+/**_________________________________ Help section starts ____________________________________**/
+
+.help_section_body_text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #8f8f8f;
+}
+
+
+.help_card_title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #2A486C;
+}
+
+.help_card_text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.help_card_shadow {
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    background: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    cursor: pointer;
+
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 36px;
+    width: 36px;
+    border-radius: 40px;
+    background: #D1AD3C;
+    cursor: pointer;
+    margin-top: -14px;
+
+}
+
+
+input[type=range]::-moz-range-thumb {
+    border: 1px solid #000000;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+
+input[type=range]::-ms-thumb {
+    border: 1px solid #000000;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 6px;
+    cursor: pointer;
+    background: #D1AD3C;
+    border-radius: 5px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #DCDCDC;
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+
+    border-radius: 1.3px;
+}
+
+
+
+/**___________________ Help section ends ___________________**/
+
+
+
+
+/**_________________________________ support section starts ____________________________________**/
+
+.support_section {
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("static/1_images/6_support-section/1_background-img.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.support_heading_line{
+    width: 12%;
+    height: 3px;
+    background: linear-gradient(90deg, #D1AD3C, black);
+}
+
+@keyframes growProgressBar {
+    0%, 33% { --pgPercentage: 0; }
+    100% { --pgPercentage: var(--value); }
+  }
+  
+  @property --pgPercentage {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 0;
+  }
+  
+  div[role="progressbar"] {
+    --size: 9rem;
+    --fg: #D1AD3C;
+    --bg: white;
+    --pgPercentage: var(--value);
+    animation: growProgressBar 3s 1 forwards;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: 
+      radial-gradient(closest-side, white 80%, transparent 0 99.9%, white 0),
+      conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0)
+      ;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--fg);
+  }
+  
+  div[role="progressbar"]::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+  }
+
+  .circle_body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .circle_label{
+      font-size:16px;
+      font-weight: 400;
+      color: white;
+  }
+  .donate_now_btn{
+      background-color: #D1AD3C;
+      color: white;
+      font-size: 14px;
+      font-weight: 500;
+  }
+
+/**___________________ support section ends ___________________**/
+
+
+
+/**_________________________________ team section starts ____________________________________**/
+
+.team_section_img img {
+    font-size: 50px;
+    transition: 0.5s;
+    width: 115px;
+    height: 115px;
+}
+
+.team_card {
+    transition: 0.5s;
+}
+
+.team_heading {
+    color: #D1AD3C;
+}
+
+.social_media_icon {
+    background-color: #e5cd7f;
+    color: white;
+}
+
+
+.team_card:hover .team_section_img {
+    border: 2px solid white;
+}
+
+.team_card:hover {
+    background-color: #D1AD3C;
+}
+
+.team_card:hover .team_heading,
+.team_card:hover .team_body {
+    color: white;
+}
+
+.team_card:hover .social_media_icon {
+    color: #ffffff !important;
+}
+
+/**___________________ team section ends ___________________**/
+
+
+
+
+/**_________________________________ event section starts ____________________________________**/
+
+.prayer_time_table_heading {
+    color: #2A486C;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.salat_color {
+    color: #D1AD3C;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.slat_time {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7A7A7A;
+}
+
+.event_location{
+    color: #7A7A7A;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 0.5;
+}
+.event_regular_date{
+    font-size: 13px;
+    font-weight: 400;
+    color:#D1AD3C;
+    line-height: 0.5;
+}
+.evente_arabic_date{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 0.5;
+}
+
+@media screen and (max-width:1146px) {
+    .event_location,.event_regular_date,.evente_arabic_date{
+        font-size: 12px;
+        line-height: 1.2 ;
+    }
+}
+
+
+
+/**___________________ event section ends ___________________**/
+
+
+
+/**_________________________________ prayer time section starts ____________________________________**/
+
+.multiple_fridat {
+    font-size: 20px;
+    color: #D1AD3C;
+    font-weight: 400;
+}
+
+.info_main_heading {
+    font-size: 48px;
+    line-height: 0.7;
+}
+
+.info_desc {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.9;
+    color: #7A7A7A;
+}
+
+.jummah_info_icon_container i {
+    font-size: 50px;
+    font-weight: 900;
+    color: #D1AD3C;
+}
+
+.info_card_title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #D1AD3C;
+}
+
+.jummah_desc {
+    font-size: 14px;
+    color: #7A7A7A;
+    font-weight: 700;
+}
+
+.info_jummah_footer {
+    font-size: 13px;
+    font-weight: 400;
+    color: #7A7A7A;
+}
+
+
+/**___________________ prayer time section ends ___________________**/
+
+
+
+/**_________________________________ testimonial section starts ____________________________________**/
+
+.slider{
+    border:1px solid #D1AD3C;
+}
+.next_slider_icon,.previous_slider_icon{
+    font-size: 25px;
+    color: #D1AD3C;
+}
+.slider_container{
+    margin-top: -9%;
+}
+.slider_img{
+    border:10px solid #D1AD3C;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.slider_heading{
+    font-size: 18px;
+    font-weight: 600;
+    color: #2A486C;
+}
+.slider_desc{
+    font-size: 17px;
+    font-weight: 400;
+}
+.slider_desc i{
+    font-size: 30px;
+    font-weight: 700;
+    color: #7A7A7A;
+    line-height: 1;
+}
+
+@media screen and (max-width:830px) {
+    .slider_container{
+        margin-top: -10%;
+    }
+    
+}
+
+@media screen and (max-width:770px) {
+    .next_slider_icon,.previous_slider_icon{
+        margin-bottom: 70px;
+    }
+    .slider_container{
+        margin-top: -5%;
+    }
+
+}
+@media screen and (max-width:1678px) {
+    .slider_container{
+        margin-top: -12%;
+    }
+
+}
+
+
+
+/**___________________ testimonial time section ends ___________________**/
+
+
+
+
+/**_________________________________ footer section starts ____________________________________**/
+
+footer{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.socialmedia_icon_heading{
+    color: #7A7A7A !important;
+}
+.social_media_icon_container i{
+    color: #7A7A7A !important;
+    transition: .3s;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.social_media_icon_container:hover i{
+    color:#D1AD3C !important;
+    transition: .3s;
+}
+
+
+.footer_header{
+    font-size: 24px;
+    font-weight: 400;
+    color: #D1AD3C !important;
+}
+.footer_desc{
+    font-size: 14px;
+    font-weight: 400;
+    color: #7A7A7A !important;
+}
+.latest_blogs_container a{
+    text-decoration: none;
+    transition: 0.2s;
+}
+.latest_blogs_container a:hover{
+    color: #D1AD3C !important;
+}
+.footer_copy_right{
+    color: #D1AD3C;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.footer_copy_right a{
+    text-decoration: none;
+    color: #7A7A7A !important;
+    transition: 0.3s;
+}
+.footer_copy_right a:hover{
+    text-decoration: none;
+    color: #D1AD3C !important;
+    transition: 0.3s;
+}
+/**___________________ footer section ends ___________________**/
+
+
+
+/**_________________________________ donate_home section starts ____________________________________**/
+
+.charity_campaing_heading{
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+}
+.donate_home_icon a{
+    font-size:16px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.donate_home_icon a:hover{
+    color: #D1AD3C;
+}
+.donate_card_heading{
+    text-decoration: none;
+    transition: 0.5s;
+}
+.donate_card_heading:hover h5{
+    color: #D1AD3C !important;
+}
+.doate_progressbar{
+    background-color: #D1AD3C !important;
+}
+
+
+.donate_card_progressbar{
+    --size: 4rem;
+    --fg: #D1AD3C;
+    --bg: #2A486C;
+    --pgPercentage: var(--value);
+    animation: growProgressBar 3s 1 forwards;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: 
+      radial-gradient(closest-side, white 80%, transparent 0 99.9%, white 0),
+      conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0)
+      ;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--fg);
+  }
+  
+  .donate_card_progressbar::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+  }
+
+
+/**___________________ donate_home section ends ___________________**/
+
+
+
+/**_________________________________ upcoming event section starts ____________________________________**/
+
+.upcoming_event_card_radius{
+    border-radius: 10px !important;
+}
+.card_banner_radius{
+    border-radius: 10px 10px 0px 0px !important;
+}
+.event_card_time{
+    background-color: #D1AD3C;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px 0px 0px 0px !important;
+    line-height: 1.1;
+}
+.upcomming_card_event_time{
+    background-color: #D1AD3C;
+    height: 9vh;
+    position: absolute;
+    position: relative;
+  
+}
+.upcomming_card_event_time div{
+    font-size: 13px;
+    font-weight:400;
+    color: white;
+    width: 14.3vh;
+    border-width: 0px 1px 0px 0px;
+    border-color: white;
+    border-style:solid ;
+}
+
+
+/**___________________ upcoming event section ends ___________________**/
+
+ 
+
+
+/**_________________________________ scolars section starts ____________________________________**/
+
+.our-team{
+    padding: 20px 15px 30px;
+    background: #fff;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.our-team .pic{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 25px;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .pic{
+    background: #D1AD3C;
+    border-radius: 50%;
+}
+.pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.our-team .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2e282a;
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #D1AD3C;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.our-team .social li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.our-team .social li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #D1AD3C;
+    border: 1px solid #D1AD3C;
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+}
+.our-team:hover .social li a{
+    background: #D1AD3C;
+    color: #fff;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+
+/**___________________ scolars section ends ___________________**/
+
+
+
+/**_________________________________ audio section starts ____________________________________**/
+
+.audio_container{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.audio_title{
+    font-size: 14px;
+    font-weight: 700;
+}
+.audio_icon{
+    font-size: 13px;
+    background-color: #EDEDED;
+    border-radius: 3px;
+}
+.playPAUSE_btn_color{
+    color: #D1AD3C !important;
+}
+.audio_icon_container i:hover{
+    color: #D1AD3C;
+}
+
+.mute_icon_block, .unmute_icon_block{
+    display: block;
+}
+.mute_icon_none,.unmute_icon_none{
+    display: none;
+}
+.audio_channel{
+    background-color: #D1AD3C;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.audio_channel:hover{
+    background-color: #2A486C;
+    color: white !important;
+    transition: 0.5s;
+
+}
+
+/**___________________ audio section ends ___________________**/
+
+
+
+/**_________________________________ fasting time and city section starts ____________________________________**/
+.fasting_time_and_city{
+    background-image: linear-gradient(to right, #D1AD3C , #2A486C);
+}
+.fasting_time_and_city_heading{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.fasting_time_and_city_mini_heading{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+.fasting_time_and_city_container{
+    color: white;
+    position: relative;
+}
+.fasting_time_and_city_container::after{
+    background-color: white;
+    content: '';
+    opacity: 0.1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sehr_time_container{
+    color: white;
+    position: relative;
+}
+.sehr_time_container::after{
+    background-color: white;
+    content: '';
+    opacity: 0.1;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sehr_time{
+    font-size: 40px;
+    font-weight: 400;
+}
+.arabic_line{
+    font-size: 24px;
+    color: white;
+}
+.arabic_defination{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/**___________________ fasting time and city section ends ___________________**/
+
+
+
+.pagination_container a{
+    color: #2A486C;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: .5s;
+}
+
+.pagination_container a:hover{
+    background-color: #D1AD3C;
+    color: white;
+    transition: .5s;
+}
+
+
+/**_________________________________ contact section starts ____________________________________**/
+    .contact_card_icon_container i{
+        background-color: #D1AD3C;
+        font-size: 28px;
+        width: 70px;
+        height: 70px;
+        color: white;
+        transition: 0.5s;
+    }
+    .contact_card_heading{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .contact_card{
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+    .contact_card_body{
+        font-size: 15px;
+    }
+    .contact_card:hover .contact_card_icon_container i{
+        background-color: #2A486C;
+        transition: 0.5s;
+    }
+    .contact_form_font_size{
+        font-size: 15px;
+        font-weight: 400;
+        color: #7A7A7A !important;
+    }
+    .contact_form_font_size input,.contact_form_font_size textarea{
+        border: none !important;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    }
+    .contact_form_submit_btn{
+        color: white !important;
+        background-color: #D1AD3C !important;
+        font-size:14px !important;
+        transition: .5s;
+    }
+    
+    .contact_form_submit_btn:hover{
+        transition:0.5s;
+        background-color: #2A486C !important;
+    }
+
+/**___________________ contact section ends ___________________**/
+

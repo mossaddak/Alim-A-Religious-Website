@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Alim</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- title icon -->
+    <link rel="icon" type="image/icon type" href="static/1_images/4_fab-icon.png">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100&display=swap"
+        rel="stylesheet">
+
+
+    
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="index.css" rel="stylesheet">
+    <link href="index.scss" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--_____________________________ jummah khutbah home section starts _____________________________-->
+    <section class=" poppins"
+        style="background:linear-gradient(rgba(0,0,0,0.5),black), url(static/1_images/8_donate_page/1_donate_home.jpg);background-size: cover;background-position: center;">
+
+        <nav class="navbar navbar-expand-lg ps-md-0 pe-md-0 ps-xl-5 pe-xl-5 fixed-top">
+            <div class="container-fluid ps-md-2 pe-md-2 ps-xl-5 pe-xl-5">
+                <a class="navbar-brand logo" href="#">
+                    <img src="static/1_images/3_logo.png" alt="logo">
+                </a>
+
+                <!-- manu bar -->
+                <button class="navbar-toggler manu_bar ps-3 pe-3 pt-2 pb-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i style="color: white;" class="fa fa-list-ul"></i>
+                </button>
+
+
+                <div class="collapse navbar-collapse pt-md-4" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+
+                        <!-- home -->
+                        <li class="nav-item ps-md-0 pe-md-0 pt-md-1 pb-md-4 ps-xl-1 pt-1 pe-xl-1 pt-xl-4 pb-xl-4">
+                            <a class="nav-link home_link active ps-3 pe-3 pt-1 pt-xl-3 pb-3" aria-current="page"
+                                href="index.html">Home</a>
+                        </li>
+
+                        <!-- donate -->
+                        <li class="nav-item ps-md-0 pe-md-0 pt-md-1 pb-md-4 ps-xl-1 pt-1 pe-xl-1 pt-xl-4 pb-xl-4">
+                            <a class="nav-link donate_link ps-3 pe-3 pt-1 pt-xl-3 pb-3" href="donate.html">Donare</a>
+                        </li>
+
+                        <!-- events -->
+                        <li class="nav-item ps-md-0 pe-md-0 pt-md-1 pb-md-4 ps-xl-1 pt-1 pe-xl-1 pt-xl-4 pb-xl-4">
+                            <a class="nav-link event_link ps-3 pe-3 pt-1 pt-xl-3 pb-3" href="event.html">Events</a>
+                        </li>
+
+                        <!-- scolars -->
+                        <li class="nav-item ps-md-0 pe-md-0 pt-md-1 pb-md-4 ps-xl-1 pt-1 pe-xl-1 pt-xl-4 pb-xl-4">
+                            <a class="nav-link scolar_link ps-3 pe-3 pt-1 pt-xl-3 pb-3" href="scolar.html">Scolars</a>
+                        </li>
+
+
+                        <!-- tilawat -->
+                        <li
+                            class="nav-item tilawat_dropdown_container ps-md-0 pe-md-0 pt-1 pt-md-1 pb-md-4 ps-xl-1 pe-xl-1 pt-xl-4 pb-xl-4">
+                            <a class="nav-link tilawat_link tilawat_doropdown_button ps-3 pe-3 pt-1 pt-xl-3 pb-3"
+                                href="#">Tilawat <i class="far fa-angle-down"></i></a>
+                            <ul class="dropdown-menu tilawat_dropdown_content ps-2">
+                                <li><a class="ps-3 pe-3 pt-1 pb-1 dropdown_content" href="audio_tilawat.html">Audio
+                                        Tilawat</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="ps-3 pe-3 pt-1 pb-1 dropdown_content" href="jumah_khutba.html">Jumah
+                                        Khutba</a></li>
+                            </ul>
+                        </li>
+
+
+                        <!-- features -->
+                        <li
+                            class="nav-item features_dropdown_container ps-md-0 pe-md-0 pt-1 pt-md-1 pb-md-4 ps-xl-1 pe-xl-1 pt-xl-4 pb-xl-4">
+                            <a class="nav-link feature_link features_doropdown_button ps-3 pe-3 pt-1 pt-xl-3 pb-3"
+                                href="#">Features <i class="far fa-angle-down"></i></a>
+                            <ul class="dropdown-menu features_dropdown_content ps-2">
+                                <li><a class="ps-3 pe-3 pt-1 pb-1 dropdown_content" href="sehr_&_iftar_time.html">Sehri Iftar Time</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="ps-3 pe-3 pt-1 pb-1 dropdown_content" href="blog.html">Blog Posts</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- contact -->
+                        <li class="nav-item ps-md-0 pe-md-0 pt-md-1 pb-md-4 ps-xl-1 pe-xl-1 pt-xl-4 pb-xl-4">
+                            <a class="nav-link contact_link ps-3 pe-3 pt-1 pt-xl-3 pb-3" href="contact.html">Contact</a>
+                        </li>
+
+                        <!-- want to visit -->
+                        <li class="nav-item ps-md-0 pe-md-0 pt-md-1 pb-md-4 ps-xl-1 pe-xl-1 pt-xl-4 pb-xl-4">
+                            <a class="nav-link want_to_visit_btn ps-5 pe-5 pt-3 pt-xl-3 pb-3" href="#">Want To Visit
+                                ?</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class=" pt-5 pb-5 mt-5">
+
+            <h5 class="poppins text-center charity_campaing_heading pt-5 mt-5">Jumah Khutba</h5>
+
+            <div class="text-center pb-3">
+                <img class="" src="static/1_images/1_line.png">
+            </div>
+
+            <div class="text-center when_things">
+                <p class="poppins donate_home_icon">
+                    <a href="index.html">Home</a> / <span style="font-size: 16px; font-weight:400; color:#D1AD3C;">Jumah Khutba</span>
+                </p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!--____________ jummah khutbah home section ends _____________-->
+
+
+
+
+
+
+    <!--_____________________________ audio section starts _____________________________-->
+
+    <!-- 1st week -->
+
+    <section class="container pt-5 pb-5 poppins">
+
+        <div class="mini_title">
+			<p class="text-center">JUMAH KHUTBAAT</p>
+		</div>
+
+		<div class="text-center">
+			<h5 class="main_heading">Week 1</h5>
+		</div>
+
+		<div class="d-flex justify-content-center mt-4">
+			<div class="heading_line"></div>
+		</div>
+
+        <p class="text-center help_section_body_text mt-3">
+            his Week's Friday Prayer Khutba Given By <b>Moulana Alim Islami</b><br> Below You Can Find The Audio Recording
+        </p>
+
+        
+
+
+
+        <div class=" audio_container ps-5 pe-5 pt-4 pb-4 mt-5">
+
+            
+            <div class="row">
+
+                <!-- left side -->
+                <div class="col-12 col-md-12 col-lg-6 col-xl-6">
+
+
+                    <!-- left title section -->
+                    <div class="title_container col-12 col-md-12 col-lg-6 col-xl-6 d-flex">
+                        <div>
+                            <img src="static/1_images/11_audio-tilwat/1_audio-img2.jpg" class="img-fluid border">
+                        </div>
+                        <div>
+                            <p class="audio_title mt-3 mb-3 ms-4">Quran Majeed(Tilawat)</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- audio -->
+                <audio id="audio">
+                    <source src="static/1_images/11_audio-tilwat/surah-fateh.mp3" type="audio/mpeg">
+                </audio>
+
+                <!-- right side -->
+                <div class="col-10 col-md-10 col-lg-5 col-xl-5">
+                    <!-- audio icon section -->
+                    <div class="audio_icon_container col-12 col-md-6 col-lg-6 col-xl-6 d-flex ">
+                        <div class="">
+                            <p class="audio_icon ms-1 mt-2"><i class="fas fa-backward p-2" onclick="FIVEsecondBACK()"></i></p>
+                        </div>
+
+                        <div class="">
+                            <p class="audio_icon ms-1 mt-2" onclick="playAudio()" ><i
+                                    class="fas fa-play p-2" id="play"></i></p>
+                        </div>
+
+                        <div class="">
+                            <p class="audio_icon ms-1 mt-2" onclick="pauseAudio()"><i class="fas fa-pause p-2" id="pause"></i></p>
+                        </div>
+
+                        <div class="">
+                            <p class="audio_icon ms-1 mt-2"><i class="fas fa-forward p-2" onclick="FIVEsecondFORWORD()"></i></p>
+                        </div>
+
+                        <div class="">
+                            <p class="audio_icon ms-1 mt-2"><i class="fas fa-stop p-2" onclick="reset()"></i></p>
+                        </div>
+                    </div>
+
+                    <!--
+                    <div class="col-12" style="width: 100%;background-color: #EDEDED;">
+                        <div class="bg-warning" style="width: 70%;height:3px;"></div>
+                    </div>
+                    -->
+                </div>
+
+                <script>
+                    
+                </script>
+
+                <!-- mute unmute btn -->
+                <div class="col-1 text-center mt-3 audio_icon_container">
+                    <p><i class="fas fa-bell-slash " onclick="mute()"></i></p>
+                </div>
+
+            </div>
+
+
+            
+
+            
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+    <!-- 2nd week -->
+
+    <section class="container pt-5 pb-5 poppins">
+
+        <div class="mini_title">
+			<p class="text-center">JUMAH KHUTBAAT</p>
+		</div>
+
+		<div class="text-center">
+			<h5 class="main_heading">Week 1</h5>
+		</div>
+
+		<div class="d-flex justify-content-center mt-4">
+			<div class="heading_line"></div>
+		</div>
+
+        <p class="text-center help_section_body_text mt-3">
+            his Week's Friday Prayer Khutba Given By <b>Moulana Alim Islami</b><br> Below You Can Find The Audio Recording
+        </p>
+
+        
+
+
+
+        <div class=" audio_container ps-5 pe-5 pt-4 pb-4 mt-5">
+
+            
+            <div class="row">
+
+                <!-- left side -->
+                <div class="col-12 col-md-12 col-lg-6 col-xl-6">
+
+
+                    <!-- left title section -->
+                    <div class="title_container col-12 col-md-12 col-lg-6 col-xl-6 d-flex">
+                        <div>
+                            <img src="static/1_images/11_audio-tilwat/1_audio-img2.jpg" class="img-fluid border">
+                        </div>
+                        <div>
+                            <p class="audio_title mt-3 mb-3 ms-4">Quran Majeed(Tilawat)</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- audio -->
+                <audio id="audio">
+                    <source src="static/1_images/11_audio-tilwat/surah-fateh.mp3" type="audio/mpeg">
+                </audio>
+
+                <!-- right side -->
+                <div class="col-10 col-md-10 col-lg-5 col-xl-5">
+                    <!-- audio icon section -->
+                    <div class="audio_icon_container col-12 col-md-6 col-lg-6 col-xl-6 d-flex ">
+                        <div class="">
+                            <p class="audio_icon ms-1 mt-2"><i class="fas fa-backward p-2" onclick="FIVEsecondBACK()"></i></p>
+                        </div>
+
+                        <div class="">
+                            <p class="audio_icon ms-1 mt-2" onclick="playAudio()" ><i
+                                    class="fas fa-play p-2" id="play"></i></p>
+                        </div>
+
+                        <div class="">
+                            <p class="audio_icon ms-1 mt-2" onclick="pauseAudio()"><i class="fas fa-pause p-2" id="pause"></i></p>
+                        </div>
+
+                        <div class="">
+                            <p class="audio_icon ms-1 mt-2"><i class="fas fa-forward p-2" onclick="FIVEsecondFORWORD()"></i></p>
+                        </div>
+
+                        <div class="">
+                            <p class="audio_icon ms-1 mt-2"><i class="fas fa-stop p-2" onclick="reset()"></i></p>
+                        </div>
+                    </div>
+
+                    <!--
+                    <div class="col-12" style="width: 100%;background-color: #EDEDED;">
+                        <div class="bg-warning" style="width: 70%;height:3px;"></div>
+                    </div>
+                    -->
+                </div>
+
+                <script>
+                    
+                </script>
+
+                <!-- mute unmute btn -->
+                <div class="col-1 text-center mt-3 audio_icon_container">
+                    <p><i class="fas fa-bell-slash " onclick="mute()"></i></p>
+                </div>
+
+            </div>
+
+
+            
+
+            
+        </div>
+
+
+    </section>
+
+
+
+
+    
+
+    <!-- 2rd week -->
+
+    <section class="container pt-5 pb-5 poppins">
+
+        <div class="mini_title">
+			<p class="text-center">JUMAH KHUTBAAT</p>
+		</div>
+
+		<div class="text-center">
+			<h5 class="main_heading">Week 1</h5>
+		</div>
+
+		<div class="d-flex justify-content-center mt-4">
+			<div class="heading_line"></div>
+		</div>
+
+        <p class="text-center help_section_body_text mt-3">
+            his Week's Friday Prayer Khutba Given By <b>Moulana Alim Islami</b><br> Below You Can Find The Audio Recording
+        </p>
+
+        
+
+
+
+        <div class=" audio_container ps-5 pe-5 pt-4 pb-4 mt-5">
+
+            
+            <div class="row">
+
+                <!-- left side -->
+                <div class="col-12 col-md-12 col-lg-6 col-xl-6">
+
+
+                    <!-- left title section -->
+                    <div class="title_container col-12 col-md-12 col-lg-6 col-xl-6 d-flex">
+                        <div>
+                            <img src="static/1_images/11_audio-tilwat/1_audio-img2.jpg" class="img-fluid border">
+                        </div>
+                        <div>
+                            <p class="audio_title mt-3 mb-3 ms-4">Quran Majeed(Tilawat)</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- audio -->
+                <audio id="audio">
+                    <source src="static/1_images/11_audio-tilwat/surah-fateh.mp3" type="audio/mpeg">
+                </audio>
+
+                <!-- right side -->
+                <div class="col-10 col-md-10 col-lg-5 col-xl-5">
+                    <!-- audio icon section -->
+                    <div class="audio_icon_container col-12 col-md-6 col-lg-6 col-xl-6 d-flex ">
+                        <div class="">
+                            <p class="audio_icon ms-1 mt-2"><i class="fas fa-backward p-2" onclick="FIVEsecondBACK()"></i></p>
+                        </div>
+
+                        <div class="">
+                            <p class="audio_icon ms-1 mt-2" onclick="playAudio()" ><i
+                                    class="fas fa-play p-2" id="play"></i></p>
+                        </div>
+
+                        <div class="">
+                            <p class="audio_icon ms-1 mt-2" onclick="pauseAudio()"><i class="fas fa-pause p-2" id="pause"></i></p>
+                        </div>
+
+                        <div class="">
+                            <p class="audio_icon ms-1 mt-2"><i class="fas fa-forward p-2" onclick="FIVEsecondFORWORD()"></i></p>
+                        </div>
+
+                        <div class="">
+                            <p class="audio_icon ms-1 mt-2"><i class="fas fa-stop p-2" onclick="reset()"></i></p>
+                        </div>
+                    </div>
+
+                    <!--
+                    <div class="col-12" style="width: 100%;background-color: #EDEDED;">
+                        <div class="bg-warning" style="width: 70%;height:3px;"></div>
+                    </div>
+                    -->
+                </div>
+
+                <script>
+                    
+                </script>
+
+                <!-- mute unmute btn -->
+                <div class="col-1 text-center mt-3 audio_icon_container">
+                    <p><i class="fas fa-bell-slash " onclick="mute()"></i></p>
+                </div>
+
+            </div>
+
+
+            
+
+            
+        </div>
+
+
+    </section>
+    <!--____________ audio section ends _____________-->
+
+
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white poppins" style="background-color: white">
+
+        <section class="d-flex justify-content-between p-4 footer_social_media_container"
+            style="background-color: white">
+
+            <div class="me-5 socialmedia_icon_heading">
+                <span>Get connected with us on social networks:</span>
+            </div>
+
+            <!-- social media icons -->
+            <div>
+                <a href="" class="text-white me-4 social_media_icon_container">
+                    <i class="fab fa-facebook rounded-circle p-2" style=""></i>
+                </a>
+                <a href="" class="text-white me-4 social_media_icon_container">
+                    <i class="fab fa-twitter rounded-circle p-2"></i>
+                </a>
+                <a href="" class="text-white me-4 social_media_icon_container">
+                    <i class="fab fa-google rounded-circle p-2"></i>
+                </a>
+                <a href="" class="text-white me-4 social_media_icon_container">
+                    <i class="fab fa-instagram rounded-circle p-2"></i>
+                </a>
+                <a href="" class="text-white me-4 social_media_icon_container">
+                    <i class="fab fa-linkedin rounded-circle p-2"></i>
+                </a>
+                <a href="" class="text-white me-4 social_media_icon_container">
+                    <i class="fab fa-github rounded-circle p-2"></i>
+                </a>
+            </div>
+
+        </section>
+
+        <hr>
+
+
+
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+
+                <div class="row mt-3 d-flex justify-content-center">
+
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                        <h6 class="text-uppercase fw-bold footer_header">Company name</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p class="footer_desc">
+                            Since 1987, Our institution guiding students and people around the world.Helping others in
+                            every community and region with astonishing facilities.
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold footer_header">Blogs</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p class="latest_blogs_container">
+                            <a href="#!" class="text-white footer_desc">Latest Blog 1</a>
+                        </p>
+                        <p class="latest_blogs_container">
+                            <a href="#!" class="text-white footer_desc">Latest Blog 1</a>
+                        </p>
+                        <p class="latest_blogs_container">
+                            <a href="#!" class="text-white footer_desc">Latest Blog 1</a>
+                        </p>
+                        <p class="latest_blogs_container">
+                            <a href="#!" class="text-white footer_desc">Latest Blog 1</a>
+                        </p>
+                    </div>
+
+
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold footer_header">Useful links</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p class="latest_blogs_container">
+                            <a href="#!" class="text-white footer_desc">Tearms & Conditions</a>
+                        </p>
+                        <p class="latest_blogs_container">
+                            <a href="#!" class="text-white footer_desc">Help</a>
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                        <h6 class="text-uppercase fw-bold footer_header">Contact</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 60px; background-color: #7c4dff; height: 2px" />
+                        <p class="footer_desc"><i class="fas fa-home mr-3"></i> Ashulia,Dhaka</p>
+                        <p class="footer_desc"><i class="fas fa-envelope mr-3"></i> ****@gmail.com</p>
+                        <p class="footer_desc"><i class="fas fa-phone mr-3"></i> + ** *** *** **</p>
+                        <p class="footer_desc"><i class="fas fa-print mr-3"></i> + ** *** *** **</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <div class="text-center p-3 footer_copy_right">
+            © 2022 Copyright:
+            <a class="text-white" href="#">Mcompany name</a>
+        </div>
+
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
